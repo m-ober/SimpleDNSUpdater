@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Settings>
+    <ExternalAddress>http://api.ipify.org</ExternalAddress>
+    <UpdateURL>https://dynamicdns.park-your-domain.com/update?host=[HOST]&amp;domain=[DOMAIN]&amp;password=[PASSWORD]&amp;ip=[IPADDR]</UpdateURL>
+    <Host>YOUR-HOST</Host>
+    <Domain>YOUR-DOMAIN.TLD</Domain>
+    <Password>YOUR-PASSWORD</Password>
+    <IPAddr>0.0.0.0</IPAddr>
+  </Settings>
+</Configuration>
