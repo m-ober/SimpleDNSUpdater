@@ -17,11 +17,13 @@ namespace SimpleDNSUpdater
             updateTimer.Elapsed += new System.Timers.ElapsedEventHandler(UpdateCheck);
             updateTimer.Interval = 120000;
             updateTimer.Enabled = true;
+            Logfile.Append("Service started");
         }
 
         public static void Stop()
         {
             updateTimer.Enabled = false;
+            Logfile.Append("Service stopped");
         }
 
         private static string GetExternalIpAddr()
